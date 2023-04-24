@@ -1,0 +1,6 @@
+ nproctot =            1
+ dr0 =   0.10000000000000001     
+ Nrtotal =         2000
+ Nl =            1
+ mattertype = scalar
+ cosmic_run =  F
