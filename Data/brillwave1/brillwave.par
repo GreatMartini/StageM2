@@ -14,8 +14,8 @@ adjuststep = .true.        # Adjust time step during evolution
 
 Nt = 1000                  # Number of time steps
 
-Nrtotal = 200              # Number of grid points in r
-Nztotal = 200              # Number of grid points in z
+Nrtotal = 1000              # Number of grid points in r
+Nztotal = 1000              # Number of grid points in z
 
 Nl0 = 0                    # Number of refinement levels for box 0 (centered on origin)
 
@@ -40,7 +40,7 @@ ahafter = 18.0             # Start loking for horizons after this time
 ahfind_every = 50          # How often to look for horizons?
 N_ah = 1                   # Look for 1 horizon (centered on origin)
 
-directory = brillwave      # Name of output directory
+directory = brillwave1      # Name of output directory
 outparallel = fileperproc  # Parallel output (singlefile,fileperproc)
 
 Ninfo = 50                 # How often do we want to output information to screen?
